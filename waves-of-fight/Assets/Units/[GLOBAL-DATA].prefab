@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6428782501213307183
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6428782501213307181}
+  - component: {fileID: 6428782501213307180}
+  m_Layer: 0
+  m_Name: '[GLOBAL-DATA]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6428782501213307181
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6428782501213307183}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6428782501213307180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6428782501213307183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ede3c64c84a38241bedde8a49784c58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  oneArmorReduceDamage: 0.6
+  maxAttackSpeed: 1.9
+  unitHealth: 100
+  unitArmor: 0
+  unitMiliSpeedAttack: 1.2
+  unitMiliDamageAttack: 17.2
+  maxUnitHealth: 100
+  maxUnitArmor: 10
+  buildHealth: 100
+  buildArmor: 12
+  maxBuildHealth: 100
+  maxBuildArmor: 30
+  unitForceAttack: 2
+  unitDeathTime: 2
+  unitDeathForce: 20
+  buildDeathTime: 2
+  buildDeathForce: 20
+  speedRotation: 3
